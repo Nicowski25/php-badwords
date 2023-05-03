@@ -18,6 +18,12 @@
         echo 'Paragraph lenght is '.strlen($_POST['paragraph']);
     ?>
 </p>
+
+<p>
+    <?php
+        echo str_replace( $_POST['badword'], '***',$_POST['paragraph']);
+    ?>
+</p>
 </body>
 </html>
 
