@@ -15,7 +15,7 @@
 </head>
 <body>
     <h1>Form</h1>
-    <form action="replace" method="post">
+    <form action="myscript.php" method="POST">
         <label for="paragraph">Paragraph</label>
         <input type="text" name="paragraph" placeholder="insert paragraph">
         <label for="badword">Badword</label>
